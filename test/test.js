@@ -7,7 +7,9 @@ async function test()
     //let res = await new Client().get( 'https://www.google.com' );
     //let res = await client.get( 'https://www.google.com' );
 
-    let res = await client.get( 'https://skate-bratislava.sk/' );
+    //let res = await client.get( 'https://skate-bratislava.sk/' );
+    let res = await client.get( 'https://biostyle.sk/' );
+    res = await client.get( 'https://biostyle.sk/' );
     //let res = await client.get( 'https://mall.sk/' );
 
     console.log( res.statusCode, res.ok, res.headers );
