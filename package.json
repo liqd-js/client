@@ -1,7 +1,7 @@
 {
   "name": "@liqd-js/client",
   "description": "Client library",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "author": "radixxko",
   "license": "MIT",
   "main": "lib/client.js",
