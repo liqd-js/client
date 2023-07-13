@@ -24,7 +24,7 @@ async function test()
 
     res = await client.get( 'https://www.google.com' );
 
-    console.log( res.statusCode, res.ok, res.headers );
+    console.log( res.statusCode, res.ok, res.headers, res.performance );
 }
 
 test()
